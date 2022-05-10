@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Расчитай з/п</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <main class="main__content">
+        <section class="card">
+            <article class="card-type">
+                <fieldset>
+                    <h4>Основные данные</h4>
+                    <!-- <label for="route">Номер маршрута</label>
+        <input type="number" id="route"> -->
+
+                    <label for="beginning">Явка:</label>
+                    <input type="datetime-local" name="" id="beginning" class="beginning">
+                    <button class="testBtn">Получить время</button>
+                    <span class="test"></span>
+
+                    <label for="endOfWork">Окончание работы:</label>
+                    <input type="datetime-local" name="" id="endOfWork" class="endOfWork">
+
+                    <label for="shoulder">Плечо:</label>
+                    <select size="1" name="" id="shoulder">
+                        <option value="0.35">Лиски</option>
+                        <option value="0.3">Россошь</option>
+                    </select>
+
+                    <label for="nunberTrain">№ поезда:</label>
+                    <input type="number" id="numberTrain" class="numberTrain">
+                </fieldset>
+            </article>
+            <article class="card-type">
+                <fieldset>
+                    <h4>Следование пассажиром</h4>
+                    <label for="start">Отправление:</label>
+                    <input type="datetime-local" name="" id="start">
+
+                    <label for="arrival">Притытие:</label>
+                    <input type="datetime-local" name="" id="arrival">
+
+                    <label for="nunberTrainPass">№ поезда:</label>
+                    <input type="number" name="" id="nunberTrainPass">
+                </fieldset>
+            </article>
+        </section>
+        <section class="route_list">
+            <fieldset>
+                <h3>Маршрутные листы</h3>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Поезд</th>
+                            <th>Явка</th>
+                            <th>Окончание работы</th>
+                            <th>Часы</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </fieldset>
+        </section>
+    </main>
+    <form action="">
+        <label for="value1">Колличество отработанных часов</label>
+        <input type="number" class="value1" id="value1">
+    </form>
+    <button class="valueSum">Расчитать</button>
+    <p class="result"></p>
+
+
+
+
+    <script src="./js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+.card, .route_list {
+    width: max-content;
+}
+
+.card-type {
+    margin-bottom: 10px;
+}
