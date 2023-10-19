@@ -1,7 +1,11 @@
-.card, .route_list {
-    width: max-content;
+.main {
+    width: 100%;
 }
 
-.card-type {
+.card, .route_list {
+    width: 100%;
+}
+
+.card__content {
     margin-bottom: 10px;
 }

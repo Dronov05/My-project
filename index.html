@@ -10,17 +10,14 @@
 </head>
 
 <body>
-    <main class="main__content">
+    <main class="main">
         <section class="card">
-            <article class="card-type">
+            <article class="card__content">
                 <fieldset>
                     <h4>Основные данные</h4>
-                    <!-- <label for="route">Номер маршрута</label>
-        <input type="number" id="route"> -->
 
                     <label for="beginning">Явка:</label>
                     <input type="datetime-local" name="" id="beginning" class="beginning">
-                    <button class="testBtn">Получить время</button>
                     <span class="test"></span>
 
                     <label for="endOfWork">Окончание работы:</label>
@@ -34,9 +31,10 @@
 
                     <label for="nunberTrain">№ поезда:</label>
                     <input type="number" id="numberTrain" class="numberTrain">
+                    <button class="testBtn">Получить время</button>
                 </fieldset>
             </article>
-            <article class="card-type">
+            <article class="card__content">
                 <fieldset>
                     <h4>Следование пассажиром</h4>
                     <label for="start">Отправление:</label>
@@ -50,22 +48,32 @@
                 </fieldset>
             </article>
         </section>
-        <section class="route_list">
-            <fieldset>
-                <h3>Маршрутные листы</h3>
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th>Поезд</th>
-                            <th>Явка</th>
-                            <th>Окончание работы</th>
-                            <th>Часы</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                    </tbody>
-                </table>
-            </fieldset>
+        <section class="card">
+            <article class="card__content">
+                <fieldset>
+                    <h4>Маршрутные листы</h4>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Поезд</th>
+                                <th>Явка</th>
+                                <th>Окончание работы</th>
+                                <th>Часы</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </fieldset>
+            </article>
+        </section>
+        <section class="card">
+            <article class="card__content">
+                <fieldset>
+                    <h4>Общая информация</h4>
+                    <p class="card__text"></p>
+                </fieldset>
+            </article>
         </section>
     </main>
     <form action="">
