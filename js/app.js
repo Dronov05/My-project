@@ -19,14 +19,7 @@ let valueSum = document.querySelector('.valueSum')
 let result = document.querySelector('.result')
 result.innerText = ''
 
-valueSum.addEventListener('click', calcMoney) //{
-// let num1 = parseInt(value1.value)
-
-// let sum = num1 * payRate
-// let generalSum = sum + (sum*= 0.15)
-
-// result.innerText = `Результат: ${generalSum}`
-// })
+valueSum.addEventListener('click', calcMoney)
 
 function calcMoney() {
     let num1 = parseInt(value1.value)
