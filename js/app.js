@@ -21,6 +21,7 @@ result.innerText = ''
 
 valueSum.addEventListener('click', calcMoney)
 
+
 function calcMoney() {
     let num1 = parseInt(value1.value)
 
